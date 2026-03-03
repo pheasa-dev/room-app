@@ -1,0 +1,23 @@
+# config to database with mongodb (url)
+spring:
+  application:
+    name: room-services
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+     
+  main:
+    allow-circular-references: true
+    banner-mode: console
+  banner:
+    location: static/banar.txt
+
+# for log level
+logging:
+  level:
+    root: INFO
+room:
+ seed:
+  enabled: false
+    
