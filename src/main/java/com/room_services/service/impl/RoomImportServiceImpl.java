@@ -129,7 +129,7 @@ public class RoomImportServiceImpl implements RoomImportService {
 
 	private String getString(Cell cell) {
 		return cell == null ? null : cell.getStringCellValue();
-	}1998
+	}
 
 	private Double getDouble(Cell cell) {
 		try {
